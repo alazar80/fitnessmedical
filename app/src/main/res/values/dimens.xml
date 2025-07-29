@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="scrollview_padding">16dp</dimen>
+    <dimen name="switch_margin_top">16dp</dimen>
+    <dimen name="image_height">219dp</dimen>
+    <dimen name="image_margin_top">16dp</dimen>
+    <dimen name="text_size_large">28sp</dimen>
+    <dimen name="text_margin_top">8dp</dimen>
+    <dimen name="input_margin_horizontal">16dp</dimen>
+    <dimen name="input_margin_top">8dp</dimen>
+    <dimen name="button_margin_horizontal">16dp</dimen>
+    <dimen name="button_margin_top">8dp</dimen>
+
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="chevron_size">24dp</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- My Profile Menu Item -->
+    <item
+        android:id="@+id/nav_my_profile"
+        android:icon="@drawable/ic_apps"
+        android:title="@string/nav_my_profile_title"
+        android:contentDescription="@string/nav_my_profile_desc"
+        android:showAsAction="ifRoom" />
+
+    <!-- Other Apps Menu Item -->
+    <item
+        android:id="@+id/nav_other_apps"
+        android:icon="@drawable/ic_apps"
+        android:title="@string/nav_other_apps_title"
+        android:contentDescription="@string/nav_other_apps_desc"
+        android:showAsAction="ifRoom" />
+
+    <!-- Feedback Menu Item -->
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/nav_feedback_title"
+        android:contentDescription="@string/nav_feedback_desc"
+        android:showAsAction="ifRoom" />
+
+    <!-- Share Menu Item -->
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/nav_share_title"
+        android:contentDescription="@string/nav_share_desc"
+        android:showAsAction="ifRoom" />
+
+    <!-- Rate Us Menu Item -->
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_rate"
+        android:title="@string/nav_rate_title"
+        android:contentDescription="@string/nav_rate_desc"
+        android:showAsAction="ifRoom" />
+
+</menu>

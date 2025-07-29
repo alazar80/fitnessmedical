@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:gravity="bottom"
+    android:background="@drawable/ic_background">
+
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_default_profile"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nav_header_title"
+        android:text="Doctor Name"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nav_header_email"
+        android:text="doctor@example.com"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

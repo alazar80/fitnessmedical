@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- AndroidManifest.xml -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" /> <!-- or -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sql"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodGridActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SaveContactsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Sql" />
+        <activity android:name=".Notepad" />
+        <activity android:name=".WallpaperActivity" />
+        <activity android:name=".detect" />
+        <activity
+            android:name=".Termsandconditions"
+            android:exported="false" />
+        <activity
+            android:name=".ZenQuotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuitarTunerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorNotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddMealActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExercisePartitionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity android:name=".VerifySignupActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAssignExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAssignMealActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManageexercise"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManagemeal"
+            android:exported="false" />
+        <activity
+            android:name=".doctorprofileedit"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".choosetrainerforsms"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorAddExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorAddMealActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorAssignExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorAssignMealActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Enterfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Sketch"
+            android:exported="false" />
+
+        <receiver
+            android:name=".WorkoutReminderReceiver"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".AlarmListActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".StopAlarmReceiver"
+            android:exported="true" />
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Alarm" />
+        <activity
+            android:name=".MacronutrientCalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SleepTrackerAcivity"
+            android:exported="false" />
+        <activity
+            android:name=".OtherFeaturesActivity"
+            android:exported="false" />
+        <activity android:name=".WeightTrackerActivity" />
+        <activity android:name=".ProgressTrackingActivity" />
+        <activity android:name=".DoctorManageexercise" />
+        <activity android:name=".DoctorManagemeal" />
+        <activity
+            android:name=".choosetrainer"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true">
+
+            <!-- other existing intent-filters or attributes -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Matches return_url="myapp://payment-callback" -->
+                <data
+                    android:host="payment-callback"
+                    android:scheme="myapp" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".DietMedicalActivity" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:exported="true" />
+
+        <activity
+            android:name=".Gym"
+            android:exported="false" />
+        <activity
+            android:name=".done"
+            android:exported="false" />
+        <activity
+            android:name=".second"
+            android:exported="false" />
+        <activity
+            android:name=".DietDay"
+            android:exported="false" />
+        <activity
+            android:name=".choose"
+            android:exported="false" />
+        <activity
+            android:name=".medicationalarmactivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sms"
+            android:exported="false" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity
+            android:name=".Shop"
+            android:exported="false" />
+        <activity android:name=".Showfeedbacks" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Manageuser"
+            android:exported="false" />
+        <activity
+            android:name=".Managedoctors"
+            android:exported="false" />
+        <activity
+            android:name=".doctorprofile"
+            android:exported="false" />
+        <activity
+            android:name=".doctorwelcome"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+
+        <service
+            android:name=".OverlayService"
+            android:exported="false"
+            android:permission="android.permission.FOREGROUND_SERVICE">
+            <intent-filter>
+                <action android:name="com.fitnessmedical.OVERLAY_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

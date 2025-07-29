@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--signup activity-->
+    <string name="user_signup_title">የተጠቃሚ መመዝገቢያ ገፅ</string>
+    <string name="upload_profile_picture">የመገለጫ ፎቶ ስቀል</string>
+    <string name="hint_username">የተጠቃሚ ስምዎን አስገባ</string>
+    <string name="hint_first_name">የመጀመሪያ ስምዎን አስገባ</string>
+    <string name="hint_last_name">የአባት ስምዎን አስገባ</string>
+    <string name="select_dob">የትውልድ ቀን ይምረጡ</string>
+    <string name="dob_not_selected">የትውልድ ቀን: አልተመረጠም</string>
+    <string name="select_gender">ፆታ ይምረጡ:</string>
+    <string name="male">ወንድ</string>
+    <string name="female">ሴት</string>
+    <string name="hint_phone">የስልክ ቁጥርዎን አስገባ</string>
+    <string name="hint_email">ኢሜይልዎን አስገባ</string>
+    <string name="hint_password">የይለፍ ቃልዎን አስገባ</string>
+    <string name="doctor_checkbox">ሐኪም ከሆኑ ይህንን ይጫኑ</string>
+    <string name="sign_up">ይመዝገቡ</string>
+
+    <!--second activity-->
+    <string name="fitness_workout">የእንቅስቃሴ ስልጠና</string>
+    <string name="recommended_diet">የተገለፀ መመገቢያ</string>
+    <string name="medication_alarm">የመድሀኒት አስታዋቂ</string>
+    <string name="doctor_contact">የዶክተር መገናኛ</string>
+    <string name="need_trainer">አሰልጣኝ ያስፈልጋል</string>
+    <string name="nav_drawer_open">የአሰሳ መዝጊያን ክፈት</string>
+    <string name="nav_drawer_close">የአሰሳ መዝጊያን ዝጋ</string>
+
+
+
+
+<!-- profile -->
+    <string name="personal_data">ግለሰቦች መረጃ</string>
+    <string name="profile_picture">ፕሮፋይል ምስል</string>
+    <string name="change_picture">ፕሮፋይል ምስል አሻሽል</string>
+    <string name="edit_profile">ፕሮፋይል ማሻሻያ</string>
+    <string name="user_id">ተጠቃሚ መታወቂያ:</string>
+    <string name="username">ተጠቃሚ ስም:</string>
+    <string name="email">ኢሜል:</string>
+    <string name="gender">ፆታ:</string>
+    <string name="phone">ስልክ:</string>
+    <string name="date_of_birth">የተወለደበት ቀን:</string>
+    <string name="height">ከፍተኛነት:</string>
+    <string name="weight">ቁሳቁስ:</string>
+    <string name="fitness_goal">ፊትነስ ግብ:</string>
+    <string name="experience_level">ተሞክሮ ሁኔታ:</string>
+    <string name="bmi">ቢኤምአይ:</string>
+    <string name="workout_days">ስልክ ቀናት:</string>
+    <string name="exercises">ስልኩት:</string>
+    <string name="meals">ምግቦች:</string>
+
+
+
+<!--admin-->
+    <string name="admin_page_title" >አስተዳደር ገፅ</string>
+    <string name="back_button_desc" >ተመለስ</string>
+    <!-- Manage Section -->
+    <string name="manage_users" >ተጠቃሚዎችን አስተዳደር</string>
+    <string name="manage_doctors">ሐኪሞችን አስተዳደር</string>
+    <!-- Exercise Section -->
+    <string name="add_exercise" >ስልክ ጨምር</string>
+    <string name="manage_meals" >ምግቶችን አስተዳደር</string>
+
+
+
+<!--login-->
+    <string name="welcome_text" translatable="false">እንኳን ደህና መጡ</string>
+    <string name="email_hint" translatable="false">ኢሜል</string>
+    <string name="password_hint" translatable="false">የይለፍ ቁጥር</string>
+    <string name="login_button" translatable="false">ግባ</string>
+    <string name="sign_up_button" translatable="false">መመዝገብ</string>
+    <!-- Content Description -->
+    <string name="welcome_illustration_desc" translatable="false">እንኳን ደህና መጡ ስዕል</string>
+    <!-- Switches -->
+    <string name="switch_on" translatable="false">ተሳክቷል</string>
+    <string name="switch_off" translatable="false">ተጠፋቷል</string>
+
+
+
+
+<!--users welcome-->
+    <!--user welcome-->
+    <string name="welcome_title" translatable="false">እንኳን ወደ FitnessMedical መተግበሪያ ገቡ</string>
+    <!-- Description -->
+    <string name="setup_description" translatable="false">እባኮትን ስለ እርስዎ ፕሮፋይል ተመልከቱ እንዲረዱን ስለ ፍትነት ግቦቻችሁ ማስተካከል!</string>
+    <!-- Height Input -->
+    <string name="height_label" translatable="false">እባኮትን ቁመትዎን አስገባ (ሴሜ)</string>
+    <string name="height_hint" translatable="false">ምሳሌ፣ 170</string>
+    <string name="height_input" translatable="false">ቁመት አስገባት መስክ</string>
+    <!-- Weight Input -->
+    <string name="weight_label" translatable="false">እባኮትን ተመን አስገባ (ኪ.ግ)</string>
+    <string name="weight_hint" translatable="false">ምሳሌ፣ 65</string>
+    <string name="weight_input" translatable="false">ተመን አስገባት መስክ</string>
+    <!-- Fitness Goal -->
+    <string name="goal_label" translatable="false">የፍትነት ግቦትን ይምረጡ</string>
+    <string name="goal_spinner" translatable="false">ፍትነት ግቦት እንደምሳሌ</string>
+    <!-- Experience Level -->
+    <string name="experience_label" translatable="false">የልምድ ሁኔታዎን ይምረጡ</string>
+    <string name="experience_spinner" translatable="false">ልምድ ሁኔታ እንደምሳሌ</string>
+    <!-- Workout Days -->
+    <string name="days_label" translatable="false">በሳምንት ስንት ቀን ተስማምቷል ስለምስክር ተመን</string>
+    <string name="days_spinner" translatable="false">ተስማምቷል ቀናት</string>
+    <!-- Button -->
+    <string name="continue_button" translatable="false">ቀጥል</string>
+
+
+
+    <!--doctor welcome-->
+    <string name="doctor_welcome_page" translatable="false">ዶክተር እንኳን በሰላም መጡ</string>
+    <string name="specialty_hint" translatable="false">ምሳሌ፡፡ ሐምሌኛ ሐኪም</string>
+    <string name="years_of_experience" translatable="false">የልምድ አመታት</string>
+    <string name="years_of_experience_hint" translatable="false">ምሳሌ፡፡ 10</string>
+    <string name="experience_description" translatable="false">የልምድ መግለጫ</string>
+    <string name="experience_description_hint" translatable="false">ልምድዎን እንዲግሩ...</string>
+    <string name="address_hint" translatable="false">ምሳሌ፡፡ 123 ቢሊኒክ ስትሪት፣ ከተማ</string>
+    <string name="license_number_hint" translatable="false">ምሳሌ፡፡ D123456</string>
+    <string name="save_doctor_info" translatable="false">ዶክተሩን መረጃ አስተካክል</string>
+
+    <!--dietday-->
+    <string name="meal_suggestions" translatable="false">ምግብ ምክሮች</string>
+    <string name="breakfast" translatable="false">ቁርስ 🍳</string>
+    <string name="lunch" translatable="false">እራት 🌮</string>
+    <string name="dinner" translatable="false">ምሳ 🍽️</string>
+    <string name="pre_workout" translatable="false">ከስራ በፊት 🏋️</string>
+    <string name="post_workout" translatable="false">ከስራ በኋላ 🥤</string>
+
+    <!--user settings-->
+    <string name="notifications" translatable="false">ማሳሰቢያዎች</string>
+    <string name="sound_on_off" translatable="false">ማዳበር እንዲሁ ይቀየሩ</string>
+    <string name="keep_screen_on" translatable="false">ማስተካከል እንዲኖረው</string>
+    <string name="privacy_security" translatable="false">ግል መረጃና እንክብካቤ</string>
+    <string name="accessibility_features" translatable="false">ተเข้ቋሚ አቀማመጥ ባለበለዚያ ባለሞያዎች</string>
+    <string name="change_fitness_goals" translatable="false">የጤና ግቦችን ለማስተካከል</string>
+    <string name="logout" translatable="false">ውጣ</string>
+
+    <!--doctor profile activity-->
+    <string name="doctor_profile" translatable="false">ዶክተር መግለጫ</string>
+    <string name="doctor_change_picture" translatable="false">ምስል ለመቀየር</string>
+    <string name="full_name" translatable="false">ሙሉ ስም:</string>
+    <string name="doctor_email" translatable="false">ኢሜል:</string>
+    <string name="doctor_phone" translatable="false">ስልክ:</string>
+    <string name="doctor_gender" translatable="false">ፆታ:</string>
+    <string name="dob" translatable="false">የተወለደበት ቀን:</string>
+    <string name="specialty" translatable="false">ስልጣን:</string>
+    <string name="years_experience" translatable="false">የልምድ አመታት:</string>
+    <string name="experience_details" translatable="false">የልምድ ምስክርነት:</string>
+    <string name="license_number" translatable="false">ፈቃድ ቁጥር:</string>
+    <string name="address" translatable="false">አድራሻ:</string>
+    <string name="doctor_edit_profile" translatable="false">መግለጫን ማሻሻል</string>
+
+    <!--doctor second-->
+    <string name="doctors_page" translatable="false">ዶክተር ገጽ</string>
+    <string name="doctors_manage_users" translatable="false">ተጠቃሚዎችን ማስተካከል</string>
+    <string name="doctors_manage_exercises" translatable="false">ስራም በተነጣጠለ</string>
+    <string name="doctors_manage_meals" translatable="false">ምግቦችን ማስተካከል</string>
+
+    <!--manage doctors-->
+    <string name="enter_doctor_id_hint" translatable="false">ዶክተር መታወቂያ ቁጥር አስገባት እንዲሰርዙ</string>
+    <string name="get_doctors" translatable="false">ዶክተሮችን እንዲያግኙ</string>
+    <string name="delete_doctor" translatable="false">ዶክተርን ሰርዙ</string>
+
+    <!--manage exercises-->
+    <string name="admins_page" translatable="false">አስተዳደር ገጽ</string>
+    <string name="exercise_id_hint" translatable="false">ስምንት ምሳሌ አንዱ</string>
+    <string name="add_exercise_to_db" translatable="false">ስምንት በመሳሪያው ስለምን ማሻሻል</string>
+
+
+<!--&lt;!&ndash;choose activity&ndash;&gt;-->
+<!--    <string name="choose_your_workout" translatable="false">እባኮትን ስራህን ምረጥ</string>-->
+<!--    <string name="home_workout" translatable="false">ቤት ስራህ</string>-->
+<!--    <string name="gym_workout" translatable="false">ጂም ስራህ</string>-->
+<!--    <string name="macro_nutrient" translatable="false">ማክሮ ንትሪንት</string>-->
+<!--    <string name="food_database" translatable="false">ምግብ መረጃ ቋት</string>-->
+<!--    <string name="water_intake" translatable="false">ውሃ መጠጣት</string>-->
+<!--    <string name="sleep_tracker" translatable="false">እንቅልፍ እንቅስቃሴ</string>-->
+<!--    <string name="progress_visualization" translatable="false">እንቅስቃሴ ማሳያ</string>-->
+<!--    <string name="generate_workout_plan" translatable="false">ስራ እቅድ ምርት</string>-->
+
+
+    <!--manage meal-->
+    <string name="meal_id_hint" translatable="false">ምግብ መታወቂያ ቁጥር</string>
+    <string name="add_meals_to_db" translatable="false">ምግቦችን ወደ ዳታበስ አክል</string>
+    <string name="meals_list_placeholder" translatable="false">ምግቦች እዚህ ይታዩ</string>
+    <string name="view_meals_in_table" translatable="false">ምግቦችን በሰንጠረዥ ማየት</string>
+    <string name="assign_meals_for_users" translatable="false">ምግቦችን ለተጠቃሚዎች መመደብ</string>
+    <string name="delete_meals_from_table" translatable="false">ምግቦችን ከሰንጠረዥ ማስረዝ</string>
+
+    <!--manage users-->
+    <string name="enter_user_id_hint" translatable="false">ተጠቃሚ መታወቂያ ቁጥር አስገባት እንዲሰርዙ</string>
+    <string name="get_users" translatable="false">ተጠቃሚዎችን እንዲያግኙ</string>
+    <string name="delete_user" translatable="false">ተጠቃሚን ሰርዙ</string>
+
+    <!--medication alarm-->
+    <string name="medication_name" translatable="false">የሕክምና ስም</string>
+    <string name="dosage_e_g_1_pill" translatable="false">የመድሀኒት መጠን (ምሳሌ፡፡ አንድ ቅንጣት)</string>
+    <string name="select_date_time" translatable="false">ቀን ሰዓት ምረጥ</string>
+    <string name="set_alarm" translatable="false">አልማዝ ቅድሚያ ማቅረብ</string>
+    <string name="current_time" translatable="false">አሁን ተመን ሰዓት: --</string>
+    <string name="timer" translatable="false">ጊዜ መቁጠሪያ</string>
+
+    <!--newnew-->
+    <string name="warm_up_text" translatable="false">ማንኛውም እንቅስቃሴ - 4 ስራም</string>
+    <string name="main_exercises_text" translatable="false">ዋና እንቅስቃሴዎች - 10 ስራም</string>
+    <string name="start_workout" translatable="false">ጀምር</string>
+
+    <!--payment-->
+    <string name="pay_and_assign_doctor" translatable="false">መክፈል እና ዶክተርን መመደብ</string>
+
+    <!--sms-->
+    <string name="type_your_message" translatable="false">መልእክትዎን ያስገቡ</string>
+    <string name="send" translatable="false">ላክ</string>
+    <string name="clear" translatable="false">ሰፋሪ ማስወገድ</string>
+
+    <!--timer-->
+    <string name="rest_timer" translatable="false">እረፍት ጊዜ ቆጣቢ</string>
+    <string name="enter_rest_time_hint" translatable="false">ስምንት እረፍት ጊዜ አስገባት (ሴኮንዶች)</string>
+    <string name="start_timer" translatable="false">ጊዜ መቁጠሪያ መጀመር</string>
+    <string name="reset_timer" translatable="false">ጊዜ መቁጠሪያ መልካም ማስተካከል</string>
+    <string name="timer_default" translatable="false">00:00</string>
+
+    <string name="select_user_to_assign_exercises" translatable="false">ስምንት ተጠቃሚ ለማመሰል እንቅስቃሴዎች እንዲሆን ይምረጡ</string>
+
+
+
+
+
+    <!--    add fragment-->
+    <string name="upload_image" translatable="false">ምስል አስገባ</string>
+    <string name="exercise_name_hint" translatable="false">እንቅስቃሴ ስም</string>
+    <string name="duration_hint" translatable="false">ጊዜ ቆይታ</string>
+    <string name="description_hint" translatable="false">መግለጫ</string>
+    <string name="fitness_goal_hint" translatable="false">ጤና ግቦች</string>
+    <string name="experience_level_hint" translatable="false">ተሞክሮ  level</string>
+
+    <!--    add meal fragment-->
+    <string name="upload_meal_picture" translatable="false">ምግብ ስዕል አስገባ</string>
+    <string name="meal_title_hint" translatable="false">ምግብ ርዕስ</string>
+    <string name="calories_hint" translatable="false">ካሎሪ (ለምሳሌ. kcal)</string>
+    <string name="category_hint" translatable="false">ምድብ</string>
+    <string name="add_meal" translatable="false">ምግብ አክል</string>
+
+    <!--    assign exercise-->
+    <string name="select_user" translatable="false">ተጠቃሚ ምረጥ</string>
+    <string name="select_exercises" translatable="false">እንቅስቃሴዎች ምረጥ</string>
+    <string name="assign_exercises" translatable="false">እንቅስቃሴዎች መለያየት</string>
+
+    <!--    assign meals-->
+    <string name="select_meals" translatable="false">ምግቦች ምረጥ</string>
+    <string name="assign_meals" translatable="false">ምግቦች መለያየት</string>
+
+    <!--    change password-->
+    <string name="old_password_hint" translatable="false">ድሮ የይለፍ ቃል</string>
+    <string name="new_password_hint" translatable="false">አዲስ የይለፍ ቃል</string>
+    <string name="change_password" translatable="false">የይለፍ ቃል አስተካክል</string>
+
+    <!--    choose activity-->
+    <string name="choose_your_workout" translatable="false">እንቅስቃሴዎትን ምረጥ</string>
+    <string name="home_workout" translatable="false">ቤት እንቅስቃሴ</string>
+    <string name="gym_workout" translatable="false">ጂም እንቅስቃሴ</string>
+    <string name="macro_nutrient" translatable="false">ማክሮ ምግብ</string>
+    <string name="food_database" translatable="false">ምግብ ዳታበዝ</string>
+    <string name="water_intake" translatable="false">ውሃ መጠጣት</string>
+    <string name="sleep_tracker" translatable="false">እንቅልፍ ተከታታይ</string>
+    <string name="progress_visualization" translatable="false">ሂደት ማሳያ</string>
+    <string name="generate_workout_plan" translatable="false">እንቅስቃሴ እቅድ ፈጠር</string>
+
+    <string name="doctor_list" translatable="false">ሐኪም ዝርዝር</string>
+
+    <!--overlay-->
+    <string name="motivational_text" translatable="false">እንቅስቃሴ ቆም!</string>
+    <string name="medication_dosage" translatable="false">መድሃኒት ስም:&#10; ዶስፌክት:</string>
+    <string name="dismiss_button" translatable="false">አስተካክል</string>
+
+    <!--    bottom navigation-->
+    <!-- Home -->
+    <string name="nav_home_title" translatable="false">መነሻ</string>
+    <string name="nav_home_desc" translatable="false">እባኮትን ወደ መነሻ ማዕከል እንዲቀርቡ</string>
+
+    <!-- Settings -->
+    <string name="nav_settings_title" translatable="false">ማቅረብ</string>
+    <string name="nav_settings_desc" translatable="false">እባኮትን ቅኝት ማስተካከል</string>
+
+    <!-- Shop -->
+    <string name="nav_shop_title" translatable="false">መሸጫ</string>
+    <string name="nav_shop_desc" translatable="false">ምሳሌ ምርቶች ለመጎብኘት ወደ ምሳሌ ምትሰምብ</string>
+
+    <string name="nav_my_profile_title" translatable="false">በራሴ ማቅረብ</string>
+    <string name="nav_my_profile_desc" translatable="false">በራሴ መለኪያ እንዲቀርቡ</string>
+
+    <!-- Other Apps -->
+    <string name="nav_other_apps_title" translatable="false">ሌሎች አፕሊኬሽኖች</string>
+    <string name="nav_other_apps_desc" translatable="false">በዚህ ሐምሌ ሌሎች አፕሊኬሽኖች ማድረግ</string>
+
+    <!-- Feedback -->
+    <string name="nav_feedback_title" translatable="false">እንቅስቃሴ</string>
+    <string name="nav_feedback_desc" translatable="false">አፕሊኬሽን በሚጠቀሙበት ቦታ ተጠቃሚ ስለት እንቅስቃሴ</string>
+
+    <!-- Share -->
+    <string name="nav_share_title" translatable="false">ተጠቃሚ ያሳየታል</string>
+    <string name="nav_share_desc" translatable="false">ይህን አፕሊኬሽን በሌሎች አካላት ላይ እንዲማሩ</string>
+
+    <!-- Rate Us -->
+    <string name="nav_rate_title" translatable="false">ሰብስ በእኛ ያገለግሉን</string>
+    <string name="nav_rate_desc" translatable="false">ይህን አፕሊኬሽን በማስተላለፊ ባለስሙን እንደ በላይ ትምትም</string>
+
+
+
+
+
+    <!-- Stepbrothers array: assuming sounds, keep English identifiers -->
+    <string-array name="stepbrothers_array">
+        <item>catalina_wine_mixer</item>
+        <item>ድምጽ 2</item>
+        <item>ድምጽ 3</item>
+        <item>ድምጽ 4</item>
+        <item>ድምጽ 5</item>
+    </string-array>
+
+    <!-- Reminder options in Amharic -->
+    <string-array name="reminder_options">
+        <item>አንዴ</item>
+        <item>በየቀኑ</item>
+        <item>በየሳምንቱ</item>
+        <item>በየወሩ</item>
+    </string-array>
+
+    <string-array name="language_array">
+        <item>አማርኛ</item>
+        <item>English</item>
+    </string-array>
+    <!-- Exercise types -->
+    <string-array name="exercise_types">
+        <item>ማቀዝቀዣ</item>
+        <item>ዋና</item>
+    </string-array>
+
+    <!-- App strings -->
+    <string name="app_name">የእንቅስቃሴ እና የሕክምና</string>
+    <string name="open_drawer">መክፈቻ ማዕከል</string>
+    <string name="close_drawer">መዝጊያ ማዕከል</string>
+
+    <!-- Meal types -->
+    <string-array name="meal_types">
+        <item>ቁርስ</item>
+        <item>ቀን ምግብ</item>
+        <item>እራት</item>
+        <item>ነጭ ነጭ</item>
+    </string-array>
+
+
+
+
+    <string name="error_invalid_email">የተሳሳተ ኢሜይል አድራሻ</string>
+    <string name="error_password_too_short">የይለፍ ቃሉ ቢያንስ 6 ቁምፊ መሆን አለበት</string>
+    <string name="error_pick_dob">እባክዎ የልደት ቀን ይምረጡ</string>
+    <string name="error_upload_image">እባክዎ የመገለጫ ምስል ያስገቡ</string>
+    <string name="error_select_gender">እባክዎ ፆታ ይምረጡ</string>
+    <string name="error_enter_username">እባክዎ የተጠቃሚ ስም ያስገቡ</string>
+    <string name="error_enter_full_name">እባክዎ የመጀመሪያ ስምና የመጨረሻ ስም ሁለቱንም ያስገቡ</string>
+    <string name="error_building_request">በጥያቄ መገንባት ላይ ስህተት</string>
+    <string name="error_no_internet">የመረብ ግንኙነት የለም</string>
+    <string name="error_unknown">ያልታወቀ ስህተት</string>
+    <string name="error_network_generic">የኔትወርክ ስህተት። እባክዎ ደግመው ይሞክሩ</string>
+    <string name="sending_verification">የማረጋገጫ ኮድ በመላክ ላይ…</string>
+    <string name="signup_title_user">የተጠቃሚ መመዝገቢያ ገጽ</string>
+    <string name="signup_title_doctor">የሐኪም መመዝገቢያ ገጽ</string>
+
+
+
+</resources>

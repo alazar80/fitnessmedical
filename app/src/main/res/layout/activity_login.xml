@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_bbackground"
+    android:id="@+id/mainLayout"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="32dp">
+
+        <!-- Dark Mode Switch -->
+
+        <!-- Language Spinner -->
+        <!-- Top row with Switch (left) and Language Spinner (right) -->
+        <LinearLayout  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:layout_marginTop="26dp"  android:gravity="center_vertical"  android:orientation="horizontal"  android:paddingHorizontal="16dp">
+  <Switch      android:id="@+id/switchbutton"      android:layout_width="wrap_content"      android:layout_height="wrap_content"      android:minHeight="48dp"      android:scaleX="0.8"      android:scaleY="0.8"      android:thumb="@drawable/switch_thumb_selector"      android:track="@drawable/switch_track_selector"      tools:ignore="UseSwitchCompatOrMaterialXml" />
+  <View      android:layout_width="0dp"      android:layout_height="1dp"      android:layout_weight="1" />
+  <Spinner      android:id="@+id/language_spinner"      android:layout_width="142dp"      android:layout_height="48dp"      android:entries="@array/language_array" />
+        </LinearLayout>
+
+
+        <ImageView  android:id="@+id/welcomeIllustration"  android:layout_width="wrap_content"  android:layout_height="187dp"  android:layout_marginTop="6dp"  android:contentDescription="@string/welcome_illustration_desc"  android:src="@drawable/ic_welcomee" />
+
+        <!-- Welcome Text -->
+<!--        <TextView-->
+<!--            android:id="@+id/gbjhknlm"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/text_margin_top"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="KIYA FITNESS"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <TextView  android:id="@+id/welcomeText"  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginTop="4dp"  android:layout_marginBottom="8dp"  android:text="Login"  android:textColor="@color/black"  android:textSize="@dimen/text_size_large"  android:textStyle="normal" />
+
+        <!-- Email Field -->
+        <!-- Email Field with icon & clear button -->
+        <com.google.android.material.textfield.TextInputLayout  android:id="@+id/emailInputLayout"  style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:layout_marginTop="6dp"  android:layout_marginHorizontal="@dimen/input_margin_horizontal"  android:layout_marginBottom="8dp"
+        app:endIconMode="clear_text"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:hintEnabled="true">
+<!--            app:startIconDrawable="@drawable/ic_email"-->
+        <com.google.android.material.textfield.TextInputEditText  android:id="@+id/emailInput"  android:layout_width="match_parent"  android:layout_height="55dp"  android:hint="@string/email_hint"  android:inputType="textEmailAddress"  android:imeOptions="actionNext"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Password Field -->
+        <!-- Password Field with built-in eye toggle -->
+        <com.google.android.material.textfield.TextInputLayout  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:layout_marginHorizontal="@dimen/input_margin_horizontal"  android:layout_marginTop="6dp"  app:endIconMode="password_toggle">
+  <com.google.android.material.textfield.TextInputEditText      android:id="@+id/passwordInput"      android:layout_width="match_parent"      android:layout_height="55dp"      android:layout_marginBottom="13dp"      android:hint="@string/password_hint"      android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- Login Button -->
+        <Button  android:id="@+id/loginButton"  android:layout_width="200dp"  android:layout_height="wrap_content"  android:layout_marginHorizontal="@dimen/button_margin_horizontal"  android:layout_marginTop="@dimen/button_margin_top"  android:text="@string/login_button"  />
+
+        <!-- Sign Up Button -->
+        <Button  android:id="@+id/signUpButton"  android:layout_width="200dp"  android:layout_height="wrap_content"  android:layout_marginHorizontal="@dimen/button_margin_horizontal"  android:layout_marginTop="5dp"  android:backgroundTint="#DCDBDB"  android:backgroundTintMode="add"  android:text="@string/sign_up_button"  android:textColor="#050505"  android:textColorLink="#BCEFDA" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <TextView  android:id="@+id/forgotPasswordText"  android:layout_width="143dp"  android:layout_height="48dp"  android:layout_marginStart="@dimen/input_margin_horizontal"  android:layout_marginTop="5dp"  android:clickable="true"  android:focusable="true"  android:text="@string/forgot_password"  android:textColor="@color/colorBackground"  android:textSize="14sp"  android:textStyle="italic"  tools:ignore="TextSizeCheck" />
+
+        <TextView  android:id="@+id/termsandconditions"  android:layout_width="143dp"  android:layout_height="48dp"  android:layout_marginStart="@dimen/input_margin_horizontal"  android:layout_marginTop="5dp"  android:clickable="true"  android:focusable="true"  android:text="@string/Termsandconditions"  android:textColor="@color/colorBackground"  android:textSize="14sp"  android:textStyle="italic"  tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+        <LinearLayout  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:layout_marginTop="2dp"  android:layout_marginLeft="1dp"  android:gravity="center_vertical"  android:orientation="horizontal"  android:paddingHorizontal="1dp">
+<!--        <Button  android:id="@+id/notepadButton"  android:layout_width="95dp"  android:layout_height="wrap_content"  android:layout_marginHorizontal="1dp"  android:layout_marginTop="5dp"  android:backgroundTint="#DCDBDB"  android:backgroundTintMode="add"  android:text="Notepad"  android:textColor="#050505"  android:textColorLink="#BCEFDA" />-->
+
+            <Button
+                android:id="@+id/contactButton"
+                android:layout_width="89dp"
+                android:layout_height="46dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#DCDBDB"
+                android:backgroundTintMode="add"
+                android:text="Other Tools"
+                android:textColor="#050505"
+                android:textColorLink="#BCEFDA"
+                android:textSize="11dp" />
+<!--            <Button      android:id="@+id/tunaButton"      android:layout_width="wrap_content"      android:layout_height="wrap_content"      android:layout_marginHorizontal="6dp"      android:layout_marginTop="5dp"      android:backgroundTint="#DCDBDB"      android:backgroundTintMode="add"      android:text="Tuna"      android:textColor="#050505"      android:textColorLink="#BCEFDA" />-->
+<!--            <Button      android:id="@+id/wallpaperButton"      android:layout_width="85dp"      android:layout_height="wrap_content"      android:layout_marginHorizontal="1dp"      android:layout_marginTop="5dp"      android:backgroundTint="#DCDBDB"      android:backgroundTintMode="add"      android:text="Wall"      android:textColor="#050505"      android:textColorLink="#BCEFDA" />-->
+            <Button
+                android:id="@+id/quoteButton"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#DCDBDB"
+                android:backgroundTintMode="add"
+                android:text="quote"
+                android:textColor="#050505"
+                android:textColorLink="#BCEFDA"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/recipeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#DCDBDB"
+                android:backgroundTintMode="add"
+                android:text="Recipe Activity"
+                android:textColor="#050505"
+                android:textColorLink="#BCEFDA"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/sketchButton"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#DCDBDB"
+                android:backgroundTintMode="add"
+                android:text="Sketch"
+                android:textColor="#050505"
+                android:textColorLink="#BCEFDA"
+                android:textSize="12dp" />
+<!--            <Button-->
+<!--                android:id="@+id/guitarButton"-->
+<!--                android:layout_width="65dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="1dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:backgroundTint="#DCDBDB"-->
+<!--                android:backgroundTintMode="add"-->
+<!--                android:text="guitar"-->
+<!--                android:textColor="#050505"-->
+<!--                android:textColorLink="#BCEFDA" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/blurOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@android:color/transparent" />
+</FrameLayout>

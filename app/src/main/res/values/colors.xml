@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#4CAF50</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorSecondary">#D55E00</color>
+        <!-- App Colors -->
+        <color name="colorPrimary">#6200EE</color> <!-- Example color (Purple) -->
+        <color name="colorPrimaryDark">#3700B3</color> <!-- Darker shade of primary -->
+        <color name="colorAccent">#03DAC5</color> <!-- Accent color -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryDark">#3700B3</color>
+    <color name="accent">#03DAC5</color>
+    <color name="blue">#007BFF</color>
+    <color name="dark_blue">#0056b3</color>
+
+    <color name="gray">#BDBDBD</color>
+    <color name="track_day">#FFFFFF</color> <!-- Bright color for day mode -->
+    <color name="track_night">#FFFFFF</color> <!-- Dark color for night mode -->
+    <color name="back_button_tint">#FFFFFF</color>
+
+    <color name="softteff">#A3B18A</color>
+    <color name="warminjera">#E8D8B8</color>
+    <color name="fadedmeskel">#F1D97A</color>
+    <color name="softlalibela">#C97B63</color>
+    <color name="dustyhighland">#A68C6D</color>
+    <color name="cloudyaddis">#9BB1CC</color>
+
+
+
+
+
+
+
+    <color name="colorBackground">#F5F7FA</color>
+    <color name="colorOnBackground">#166088</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="logout">#E74C3C</color>
+</resources>
+

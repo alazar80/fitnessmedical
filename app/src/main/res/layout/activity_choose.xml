@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_bbackground"
+    android:id="@+id/mainLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="@string/app_name"
+            app:titleTextColor="@android:color/white"
+            app:navigationContentDescription="@string/nav_drawer_open"
+            tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/header"
+            android:layout_marginTop="36dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_arrow"
+                android:layout_gravity="start"
+                android:layout_marginTop="13dp" />
+
+            <!-- Back Button -->
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/metrophobic"
+                android:text="@string/choose_your_workout"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Title -->
+
+
+        <!-- Home Workout Button -->
+        <Button
+            android:id="@+id/btn_home_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_workout"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="13dp"
+            android:fontFamily="@font/metrophobic"/>
+
+        <!-- Gym Workout Button -->
+        <Button
+            android:id="@+id/btn_gym_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gym_workout"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/metrophobic"/>
+
+        <!-- Calorie Tracker Button -->
+        <Button
+            android:id="@+id/btn_macro_nutrient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/macro_nutrient"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/metrophobic"/>
+
+        <!-- Workout & Exercise Button -->
+        <Button
+            android:id="@+id/btn_food_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="#673AB7"
+            android:text="@string/food_database"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/metrophobic"/>
+
+        <!-- Progress Tracking Button -->
+        <Button
+            android:id="@+id/btn_water_intake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="#009688"
+            android:text="Weight Tracker"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/metrophobic"/>
+
+        <!-- Other Features Button -->
+        <Button
+            android:id="@+id/btn_sleep_tracker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_tracker"
+            android:backgroundTint="#E91E63"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="13dp"
+            android:fontFamily="@font/metrophobic"/>
+
+        <Button
+            android:id="@+id/bookAppointmentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Book Appointment"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

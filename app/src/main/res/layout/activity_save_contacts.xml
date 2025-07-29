@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/ic_bbackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ─── Toolbar & Title ─────────────────────────── -->
+        <androidx.appcompat.widget.Toolbar  android:id="@+id/toolbar"  android:layout_width="match_parent"  android:layout_height="?attr/actionBarSize"  android:background="?attr/colorPrimary"  app:title="@string/app_name"  app:titleTextColor="@android:color/white"/>
+
+        <LinearLayout  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:orientation="horizontal"  android:gravity="center_vertical"  android:paddingBottom="16dp">
+  <ImageView      android:id="@+id/backButton"      android:layout_width="36dp"      android:layout_height="36dp"      android:src="@drawable/ic_arrow"/>
+  <TextView      android:layout_weight="1"      android:layout_width="0dp"      android:layout_height="wrap_content"      android:gravity="center"      android:text="Save Contacts and See Weather Info"      android:textSize="17sp"      android:textStyle="bold"      android:textColor="@color/colorPrimaryDark"/>
+  <Space      android:layout_width="36dp"      android:layout_height="36dp"/>
+        </LinearLayout>
+
+        <!-- ─── Save Contacts Button ─────────────────────── -->
+        <com.google.android.material.button.MaterialButton  android:id="@+id/btnSaveContacts"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:text="Save All Contacts"  app:backgroundTint="#64ABAF"  app:cornerRadius="999dp"  android:layout_marginBottom="24dp"/>
+
+        <!-- ─── City Dropdown ───────────────────────────── -->
+        <com.google.android.material.textfield.TextInputLayout  android:id="@+id/tilCity"  style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:hint="Select City"  app:endIconMode="dropdown_menu"  android:layout_marginBottom="8dp">
+  <AutoCompleteTextView      android:id="@+id/autoCompleteCity"      android:layout_width="match_parent"      android:layout_height="wrap_content"      android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView  android:id="@+id/tvSelectedCity"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:text="No city selected"  android:textSize="16sp"  android:layout_marginBottom="24dp"/>
+
+        <com.google.android.material.button.MaterialButton  android:id="@+id/btnFetchWeather"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:text="Fetch Weather"  app:backgroundTint="#A96363"  app:cornerRadius="999dp"  android:layout_marginBottom="8dp"/>
+
+        <TextView  android:id="@+id/tvWeather"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:text="Weather will appear here"  android:textSize="16sp"/>
+
+        <!-- ─── Amount Input ────────────────────────────── -->
+        <com.google.android.material.textfield.TextInputLayout  android:id="@+id/tilAmount"  style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:hint="Amount"  android:layout_marginTop="24dp">
+  <com.google.android.material.textfield.TextInputEditText      android:id="@+id/etAmount"      android:layout_width="match_parent"      android:layout_height="wrap_content"      android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- ─── From & To Currencies ────────────────────── -->
+        <LinearLayout  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:orientation="horizontal"  android:weightSum="2"  android:layout_marginTop="8dp">
+  <com.google.android.material.textfield.TextInputLayout      android:id="@+id/tilFromCurrency"      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"      android:layout_width="0dp"      android:layout_height="wrap_content"      android:layout_weight="1"      android:hint="From">
+      <AutoCompleteTextView          android:id="@+id/autoFrom"          android:layout_width="match_parent"          android:layout_height="wrap_content"          android:inputType="text"/>  </com.google.android.material.textfield.TextInputLayout>
+  <Space      android:layout_width="16dp"      android:layout_height="wrap_content"/>
+  <com.google.android.material.textfield.TextInputLayout      android:id="@+id/tilToCurrency"      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"      android:layout_width="0dp"      android:layout_height="wrap_content"      android:layout_weight="1"      android:hint="To">
+      <AutoCompleteTextView          android:id="@+id/autoTo"          android:layout_width="match_parent"          android:layout_height="wrap_content"          android:inputType="text"/>  </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <!-- ─── Convert Button & Result ─────────────────── -->
+        <com.google.android.material.button.MaterialButton  android:id="@+id/btnConvertCurrency"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:text="Convert"  android:layout_marginTop="16dp"/>
+
+        <TextView  android:id="@+id/tvConversionResult"  android:layout_width="match_parent"  android:layout_height="wrap_content"  android:text="Conversion appears here"  android:textSize="16sp"  android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

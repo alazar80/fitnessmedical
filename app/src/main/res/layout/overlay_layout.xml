@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#80000000"
+    android:padding="16dp">
+
+    <!-- Motivational Text -->
+    <TextView
+        android:id="@+id/motivationalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/motivational_text"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Medication and Dosage Text -->
+    <TextView
+        android:id="@+id/dosageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medication_dosage"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Dismiss Button -->
+    <Button
+        android:id="@+id/dismissButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dismiss_button"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

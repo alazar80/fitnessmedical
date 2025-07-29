@@ -1,0 +1,175 @@
+<resources>
+    <string-array name="gender_options">
+        <item>ወንድ</item>
+        <item>ሴት</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>ወንድ</item>
+        <item>ሴት</item>
+    </string-array>
+
+    <string-array name="activity_levels">
+        <item>ተዛማጅ ያልሆነ</item>
+        <item>በቀላሉ እንቅስቃሴ ያለበት</item>
+        <item>መካከለኛ እንቅስቃሴ ያለበት</item>
+        <item>ከፍተኛ እንቅስቃሴ ያለበት</item>
+        <item>እጅግ ከፍተኛ እንቅስቃሴ</item>
+    </string-array>
+    <string-array name="dietary_preferences">
+        <item>እራት</item>
+        <item>ቀን ምሳ</item>
+        <item>ምሳ ማብሰል</item>
+        <item>እንቁላል በፊት</item>
+        <item>እንቁላል በኋላ</item>
+    </string-array>
+
+    <string-array name="training_goals">
+        <item>ኃይል</item>
+        <item>ጡንቻ እድገት</item>
+        <item>ትዕግስት</item>
+    </string-array>
+
+    <string-array name="experience_levels">
+        <item>ጀማሪ</item>
+        <item>መካከለኛ</item>
+        <item>የበለጠ ተሞክሮ ያለው</item>
+    </string-array>
+
+    <string-array name="intensity_levels">
+        <item>ቀላል</item>
+        <item>መካከለኛ</item>
+        <item>ከፍተኛ</item>
+    </string-array>
+
+    <string-array name="formula_names">
+        <item>ኤፕሊ ፎርሙላ</item>
+        <item>ብርዚኪ ፎርሙላ</item>
+        <item>ሎምባርዲ ፎርሙላ</item>
+        <item>ኦ ኮነር ፎርሙላ</item>
+    </string-array>
+
+    <string-array name="goal_types">
+        <item>ክብደት መቀነስ</item>
+        <item>ጡንቻ መጨመር</item>
+        <item>ትዕግስት መሻሻል</item>
+        <item>አጠቃላይ የአካል ጤና</item>
+    </string-array>
+
+    <string-array name="fitness_goals">
+        <item>ክብደት መቀነስ</item>
+        <item>ጡንቻ መጨመር</item>
+        <item>ትዕግስት መሻሻል</item>
+        <item>አጠቃላይ የአካል ጤና</item>
+    </string-array>
+
+
+
+    <string-array name="forgot_roles_array">
+        <item>User</item>
+        <item>Doctor</item>
+    </string-array>
+
+    <!-- Gender selection -->
+<!--    <string-array name="gender_options">-->
+<!--        <item>ወንድ</item>-->
+<!--        <item>ሴት</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="gender">-->
+<!--        <item>ወንድ</item>-->
+<!--        <item>ሴት</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Activity levels &ndash;&gt;-->
+<!--    <string-array name="activity_levels">-->
+<!--        <item>ተቀውጦ</item>-->
+<!--        <item>ቀላል ተንቀሳቀስ</item>-->
+<!--        <item>መካከለኛ ተንቀሳቀስ</item>-->
+<!--        <item>ጥሩ ተንቀሳቀስ</item>-->
+<!--        <item>በጣም ተንቀሳቀስ</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Training goals &ndash;&gt;-->
+<!--    <string-array name="training_goals">-->
+<!--        <item>ኃይል</item>-->
+<!--        <item>ሥጋ መብዛት</item>-->
+<!--        <item>ትዕግስት</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Experience levels &ndash;&gt;-->
+<!--    <string-array name="experience_levels">-->
+<!--        <item>ጀማሪ</item>-->
+<!--        <item>መካከለኛ</item>-->
+<!--        <item>በላይነት</item>-->
+<!--    </string-array>-->
+
+    <!-- Intensity levels -->
+<!--    <string-array name="intensity_levels">-->
+<!--        <item>ዝቅተኛ</item>-->
+<!--        <item>መካከለኛ</item>-->
+<!--        <item>ከፍተኛ</item>-->
+<!--    </string-array>-->
+
+    <!-- Formula names -->
+<!--    <string-array name="formula_names">-->
+<!--        <item>የኤፕሌይ ስሌት</item>-->
+<!--        <item>የብርዚኪ ስሌት</item>-->
+<!--        <item>የሎምባርዲ ስሌት</item>-->
+<!--        <item>የኦ ኮነር ስሌት</item>-->
+<!--    </string-array>-->
+
+    <!-- Goal types -->
+<!--    <string-array name="goal_types">-->
+<!--        <item>የክብደት መቀነስ</item>-->
+<!--        <item>የሥጋ መጨመር</item>-->
+<!--        <item>የትዕግስት ማሻሻያ</item>-->
+<!--        <item>አጠቃላይ የእንቅስቃሴ ሁኔታ</item>-->
+<!--    </string-array>-->
+
+    <!-- Fitness goals (duplicate of goal_types) -->
+<!--    <string-array name="fitness_goals">-->
+<!--        <item>የክብደት መቀነስ</item>-->
+<!--        <item>የሥጋ መጨመር</item>-->
+<!--        <item>የትዕግስት ማሻሻያ</item>-->
+<!--        <item>አጠቃላይ የእንቅስቃሴ ሁኔታ</item>-->
+<!--    </string-array>-->
+
+    <!-- Dietary preferences -->
+<!--    <string-array name="dietary_preferences">-->
+<!--        <item>ኬቶ</item>-->
+<!--        <item>ዝቅተኛ ካርቦሃይድሬት</item>-->
+<!--        <item>ከፍተኛ ፕሮቲን</item>-->
+<!--        <item>የተሻለ ሚዛን</item>-->
+<!--    </string-array>-->
+
+    <!-- Special numeric literals -->
+    <string name="_0">0</string>
+
+    <!-- Exercise-related -->
+    <string name="exercise_type">የእንቅስቃሴ አይነት</string>
+    <string name="assigned_exercises">ተመደቡ እንቅስቃሴዎች</string>
+    <string name="exercise_search_hint">እንቅስቃሴ ፈልግ</string>
+    <string name="exercise_meal_hint">ምግብ ፈልግ</string>
+    <string name="exercise_user_hint">ተጠቃሚ ፈልግ</string>
+    <string name="exercise_doctor_hint">ዶክተር ፈልግ</string>
+
+    <!-- Search actions -->
+    <string name="search_doctors">ዶክተሮችን ፈልግ</string>
+    <string name="search_users">ተጠቃሚዎችን ፈልግ</string>
+    <string name="search_exercises">እንቅስቃሴዎችን ፈልግ</string>
+    <string name="search_meals">ምግቦችን ፈልግ</string>
+
+    <!-- UI Elements -->
+    <string name="sound">ድምጽ</string>
+    <string name="screen_reader_support">የማንኛውም አንብበ ድጋፍ</string>
+    <string name="accessibility">የተለዋዋጭ ተስማሚ ባህሪዎች</string>
+    <string name="vibration_feedback">የነቁሳቀስ እርምጃ</string>
+
+    <!-- Profile & account -->
+    <string name="profile">መግለጫ</string>
+    <string name="forgot_password">የይለፍ ቃል ረሳህ</string>
+    <string name="Submit">አስገባ</string>
+    <string name="message">መልዕክት</string>
+    <string name="feedbacks_and_suggestions">አስተያየቶችና ጥቆማዎች</string>
+    <string name="todo">ሊደረግ የሚገባ</string>
+</resources>

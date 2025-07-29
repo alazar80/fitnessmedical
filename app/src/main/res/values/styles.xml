@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- keep or override your primaries if needed -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#CCCCCC</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="colorBackground">@color/white</item>
+        <!-- GLOBAL nav-icon tint for Toolbars & any tinted ImageView -->
+
+
+<!--         fallback for AppCompat widgets that respect colorControlNormal -->
+        <item name="colorControlNormal">@color/back_button_tint</item>
+
+        <!-- if you want your window background to auto-switch too -->
+        <item name="android:windowBackground">@drawable/bg_window</item>
+    </style>
+    <style name="DayTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#CCCCCC</item>
+        <item name="colorAccent">#FF4081</item>
+
+    </style>
+
+
+    <style name="Theme.Fitnessmedical.NoSplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Keep colors if needed, or strip down for speed -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.NoSplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Night Theme -->
+    <style name="NightTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#333333</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+    <style name="ProfileLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ProfileValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="SectionHeader">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="SectionCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="SettingItemText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="LogoutButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:backgroundTint">@color/logout</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="iconPadding">8dp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+    <style name="AppTheme.HighContrast" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorBackground">#FFFFFF</item>
+        <item name="colorOnBackground">#000000</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.ColorBlind" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0072B2</item> <!-- Blue -->
+        <item name="colorSecondary">#D55E00</item> <!-- Orange -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorBackground">#F5F5F5</item>
+        <item name="colorOnBackground">#000000</item>
+    </style>
+
+</resources>

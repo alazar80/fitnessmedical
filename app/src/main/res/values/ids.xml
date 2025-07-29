@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tvExercises" translatable="false">exercise</string>
+    <string name="tvTime" translatable="false">Time</string>
+</resources>

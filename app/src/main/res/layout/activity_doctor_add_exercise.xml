@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/ic_bbackground"
+    >
+
+        <LinearLayout
+            android:id="@+id/activityDoctorAddExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/backButton"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_arrow"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="13dp" />
+                <!--            android:background="?attr/selectableItemBackgroundBorderless"-->
+
+                <TextView
+                    android:id="@+id/ManageAddExercisesTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Doctor Add Exercises page"
+                    android:textSize="20sp"
+                    android:textColor="#4A6FA5"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/ExerciseImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_default_profile"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/uploadImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/editExerciseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Exercise Name"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Duration"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fitness Goal" />
+            <!-- DoctorAddExerciseActivity/activity_doctor_add_exercise.xml -->
+            <Spinner
+                android:id="@+id/goalSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_spinner"
+                android:entries="@array/fitness_goals"
+                android:minHeight="48dp" />
+
+
+          <!-- e.g. <string-array name="exercise_types"> -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience Level" />
+            <Spinner
+                android:id="@+id/experienceSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/experience_levels"
+            android:background="@drawable/rounded_spinner"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exercise Type" />
+
+            <Spinner
+                android:id="@+id/viewTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/exercise_types"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location" />
+
+            <Spinner
+                android:id="@+id/locationSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/exercise_locations"
+                android:background="@drawable/rounded_spinner"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/addExerciseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Exercise"
+                android:layout_marginTop="10dp" />
+
+            <ListView
+                android:id="@+id/exerciseListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>

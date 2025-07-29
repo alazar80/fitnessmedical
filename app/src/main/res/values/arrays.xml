@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="stepbrothers_array">
+        <item>catalina_wine_mixer</item>
+        <item>Sound 2</item>
+        <item>Sound 3</item>
+        <item>Sound 4</item>
+        <item>Sound 5</item>
+    </string-array>
+
+        <string-array name="reminder_options">
+            <item>Once</item>
+            <item>Daily</item>
+            <item>Weekly</item>
+            <item>Monthly</item>
+        </string-array>
+
+
+    <string-array name="exercise_types">
+        <item>warmup</item>
+        <item>main</item>
+    </string-array>
+
+<!--        <string name="app_name">Fitness And Medical</string>-->
+<!--        <string name="open_drawer">Open Drawer</string>-->
+<!--        <string name="close_drawer">Close Drawer</string>-->
+
+    <string-array name="meal_types">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+
+
+</resources>

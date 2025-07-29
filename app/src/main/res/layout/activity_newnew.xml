@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bbackground"
+    android:id="@+id/mainLayout"
+    tools:context=".Gym">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"
+        app:navigationContentDescription="@string/nav_drawer_open"
+        tools:ignore="MissingConstraints" />
+    <!-- Header Image -->
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/notif"
+    app:layout_constraintTop_toBottomOf="@id/toolbar"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+    <!-- User Profile Icons -->
+
+    <!-- Workout Title -->
+    <TextView
+        android:id="@+id/dayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitness Exercises"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/headerImage"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/workoutInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14min 35s | 157 kcal"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/dayTitle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Target Areas -->
+    <LinearLayout
+        android:id="@+id/targetAreaLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/workoutInfo"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_leg" />
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_butt" />
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_upper" />
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_back" />
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_arm" />
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_abs" />
+    </LinearLayout>
+
+    <!-- NestedScrollView to make everything scrollable -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/targetAreaLayout"
+        app:layout_constraintBottom_toTopOf="@id/startButton">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Warm-Up Section -->
+            <LinearLayout
+                android:id="@+id/warmUpLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/warmUpText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/warm_up_text"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/warmUpSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- Warm-Up Exercises RecyclerView (Initially Hidden) -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewWarmExercises"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="true" />
+
+            <!-- Main Workout Section -->
+            <LinearLayout
+                android:id="@+id/MainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/MainText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/main_exercises_text"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Main Workout RecyclerView (Always Visible) -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewExercises"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:nestedScrollingEnabled="true" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/start_workout"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

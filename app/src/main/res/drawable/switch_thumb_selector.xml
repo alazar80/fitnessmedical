@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Sun icon for day mode -->
+    <item android:drawable="@drawable/sunny"
+        android:layout_width="13dp"
+        android:layout_height="33dp"
+
+        android:state_checked="false" />
+    <!-- Moon icon for night mode -->
+    <item android:drawable="@drawable/night"
+        android:layout_width="13dp"
+        android:layout_height="33dp"
+
+        android:state_checked="true" />
+</selector>

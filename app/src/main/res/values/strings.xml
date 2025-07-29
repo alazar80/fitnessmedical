@@ -1,0 +1,437 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="user_signup_title">User\'s Signup Page</string>
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="hint_username">Enter your username</string>
+    <string name="hint_first_name">Enter your first name</string>
+    <string name="hint_last_name">Enter your last name</string>
+    <string name="select_dob">Select Date of Birth</string>
+    <string name="dob_not_selected">Date of Birth: Not Selected</string>
+    <string name="select_gender">Select Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hint_phone" translatable="false">Enter your phone number</string>
+    <string name="hint_email" translatable="false">Enter your email</string>
+    <string name="hint_password" translatable="false">Enter your password</string>
+    <string name="doctor_checkbox" translatable="false">Are you a Doctor? Click this</string>
+    <string name="sign_up" translatable="false">Sign Up</string>
+    <string name="app_name">Fitness and Medical</string>
+    <string name="fitness_workout" translatable="false">Fitness Workout</string>
+    <string name="recommended_diet" translatable="false">Recommended Diet</string>
+    <string name="medication_alarm" translatable="false">Medication Alarm</string>
+    <string name="doctor_contact" translatable="false">Doctor Contact</string>
+    <string name="need_trainer" translatable="false">You need a trainer</string>
+    <string name="nav_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="nav_drawer_close" translatable="false">Close navigation drawer</string>
+    <string-array name="forgot_roles_array">
+        <item>User</item>
+        <item>Doctor</item>
+    </string-array>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!--signup page-->
+    <string name="personal_data" translatable="false">Personal Data</string>
+    <string name="profile_picture" translatable="false">Profile Picture</string>
+    <string name="doctor_change_picture" translatable="false">Change Picture</string>
+    <string name="doctor_edit_profile" translatable="false">Edit Profile</string>
+    <string name="user_id" translatable="false">User ID:</string>
+    <string name="username" translatable="false">Username:</string>
+    <string name="doctor_email" translatable="false">Email:</string>
+    <string name="doctor_gender" translatable="false">Gender:</string>
+    <string name="doctor_phone" translatable="false">Phone:</string>
+    <string name="date_of_birth" translatable="false">Date of Birth:</string>
+    <string name="height" translatable="false">Height:</string>
+    <string name="weight" translatable="false">Weight:</string>
+    <string name="fitness_goal" translatable="false">Fitness Goal:</string>
+    <string name="experience_level" translatable="false">Experience Level:</string>
+    <string name="bmi" translatable="false">BMI:</string>
+    <string name="workout_days" translatable="false">Workout Days:</string>
+    <string name="exercises" translatable="false">Exercises:</string>
+    <string name="meals" translatable="false">Meals:</string>
+    <string name="_5_9" translatable="false">5\'9\\</string>
+
+
+    <!--admin resources-->
+    <!-- Header -->
+    <string name="admin_page_title" translatable="false">Admin\'s Page</string>
+    <string name="back_button_desc" translatable="false">Back</string>
+    <!-- Manage Section -->
+    <string name="manage_users" translatable="false">Manage Users</string>
+    <string name="manage_doctors" translatable="false">Manage Doctors</string>
+    <!-- Exercise Section -->
+    <string name="add_exercise" translatable="false">Add Exercise</string>
+    <string name="manage_meals" translatable="false">Manage Meals</string>
+
+
+    <!-- LOGIN Text -->
+    <string name="welcome_text" translatable="false">Welcome</string>
+    <string name="email_hint" translatable="false">Email</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="login_button" translatable="false">Login</string>
+    <string name="sign_up_button" translatable="false">Sign Up</string>
+    <!-- Content Description -->
+    <string name="welcome_illustration_desc" translatable="false">Welcome Illustration</string>
+    <!-- Switches -->
+    <string name="switch_on" translatable="false">On</string>
+    <string name="switch_off" translatable="false">Off</string>
+
+
+    <!--user welcome-->
+    <string name="welcome_title" translatable="false">Welcome to FitnessPro</string>
+    <!-- Description -->
+    <string name="setup_description" translatable="false">Let\'s set up your profile to help you achieve your fitness goals!</string>
+    <!-- Height Input -->
+    <string name="height_label" translatable="false">Enter Your Height (cm)</string>
+    <string name="height_hint" translatable="false">e.g., 170</string>
+    <string name="height_input" translatable="false">Height Input Field</string>
+    <!-- Weight Input -->
+    <string name="weight_label" translatable="false">Enter Your Weight (kg)</string>
+    <string name="weight_hint" translatable="false">e.g., 65</string>
+    <string name="weight_input" translatable="false">Weight Input Field</string>
+    <!-- Fitness Goal -->
+    <string name="goal_label" translatable="false">Select Your Fitness Goal</string>
+    <string name="goal_spinner" translatable="false">Fitness Goal Spinner</string>
+    <!-- Experience Level -->
+    <string name="experience_label" translatable="false">Your Experience Level</string>
+    <string name="experience_spinner" translatable="false">Experience Level Spinner</string>
+    <!-- Workout Days -->
+    <string name="days_label" translatable="false">How Many Days Can You Workout Weekly?</string>
+    <string name="days_spinner" translatable="false">Workout Days Spinner</string>
+    <!-- Button -->
+    <string name="continue_button" translatable="false">Continue</string>
+
+
+    <!--doctor welcome-->
+    <string name="doctor_welcome_page" translatable="false">Doctor Welcome page</string>
+    <string name="specialty_hint" translatable="false">e.g., Cardiologist</string>
+    <string name="years_of_experience" translatable="false">Years of Experience</string>
+    <string name="years_of_experience_hint" translatable="false">e.g., 10</string>
+    <string name="experience_description" translatable="false">Experience Description</string>
+    <string name="experience_description_hint" translatable="false">Describe your experience...</string>
+    <string name="address_hint" translatable="false">e.g., 123 Clinic Street, City</string>
+    <string name="license_number_hint" translatable="false">e.g., D123456</string>
+    <string name="save_doctor_info" translatable="false">Save Doctor Info</string>
+
+
+    <!--dietday-->
+    <string name="meal_suggestions" translatable="false">Meal Suggestions</string>
+    <string name="breakfast" translatable="false">Breakfast 🍳</string>
+    <string name="lunch" translatable="false">Lunch 🌮</string>
+    <string name="dinner" translatable="false">Dinner 🍽️</string>
+    <string name="pre_workout" translatable="false">Pre-Workout 🏋️</string>
+    <string name="post_workout" translatable="false">Post-Workout 🥤</string>
+
+
+    <!--user settings-->
+    <string name="notifications" translatable="false">Notifications</string>
+    <string name="sound_on_off" translatable="false">Sound ON/OFF</string>
+    <string name="keep_screen_on" translatable="false">Keep Screen On</string>
+    <string name="privacy_security" translatable="false">Privacy and Security</string>
+    <string name="accessibility_features" translatable="false">Accessibility Features</string>
+    <string name="change_fitness_goals" translatable="false">Change Your Fitness Goals</string>
+    <string name="logout" translatable="false">Logout</string>
+
+
+    <!--doctor profile activity-->
+    <string name="doctor_profile" translatable="false">Doctor Profile</string>
+    <string name="change_picture" translatable="false">Change Picture</string>
+    <string name="full_name" translatable="false">Full Name:</string>
+    <string name="email" translatable="false">Email:</string>
+    <string name="phone" translatable="false">Phone:</string>
+    <string name="gender" translatable="false">Gender:</string>
+    <string name="dob" translatable="false">Date of Birth:</string>
+    <string name="specialty" translatable="false">Specialty:</string>
+    <string name="years_experience" translatable="false">Years of Experience:</string>
+    <string name="experience_details" translatable="false">Experience Details:</string>
+    <string name="license_number" translatable="false">License Number:</string>
+    <string name="address" translatable="false">Address:</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+
+
+    <!--doctor second-->
+    <string name="doctors_page" translatable="false">Doctor\'s Page</string>
+    <string name="doctors_manage_users" translatable="false">Manage Users</string>
+    <string name="doctors_manage_exercises" translatable="false">Manage Exercises</string>
+    <string name="doctors_manage_meals" translatable="false">Manage Meals</string>
+
+
+    <!--manage doctors-->
+    <string name="enter_doctor_id_hint" translatable="false">Enter Doctor ID to delete</string>
+    <string name="get_doctors" translatable="false">Get Doctors</string>
+    <string name="delete_doctor" translatable="false">Delete Doctor</string>
+
+
+    <!--manage exercises-->
+    <string name="admins_page" translatable="false">Admin\'s Page</string>
+    <string name="exercise_id_hint" translatable="false">Exercise Id</string>
+    <string name="add_exercise_to_db" translatable="false">Add Exercise To Database</string>
+    <string name="exercise_list_placeholder" translatable="false">Exercises will appear here</string>
+    <string name="view_exercises_from_table" translatable="false">View Exercises From Table</string>
+    <string name="assign_exercises_for_users" translatable="false">Assign Exercises For Users</string>
+    <string name="delete_exercises_from_table" translatable="false">Delete Exercises From Table</string>
+
+
+    <!--manage meal-->
+    <string name="meal_id_hint" translatable="false">Meal Id</string>
+    <string name="add_meals_to_db" translatable="false">Add Meals To the Database</string>
+    <string name="meals_list_placeholder" translatable="false">Meals will appear here</string>
+    <string name="view_meals_in_table" translatable="false">View Meals in the Table</string>
+    <string name="assign_meals_for_users" translatable="false">Assign Meals For Users</string>
+    <string name="delete_meals_from_table" translatable="false">Delete Meals From table</string>
+
+
+    <!--manage users-->
+    <string name="enter_user_id_hint" translatable="false">Enter User ID to delete</string>
+    <string name="get_users" translatable="false">Get Users</string>
+    <string name="delete_user" translatable="false">Delete User</string>
+
+
+    <!--medication alarm-->
+    <string name="medication_name" translatable="false">Medication Name</string>
+    <string name="dosage_e_g_1_pill" translatable="false">Dosage (e.g., 1 pill)</string>
+    <string name="select_date_time" translatable="false">Select Date  Time</string>
+    <string name="set_alarm" translatable="false">Set Alarm</string>
+    <string name="current_time" translatable="false">Current Time: --</string>
+    <string name="timer" translatable="false">Timer</string>
+
+    <!--newnew-->
+    <!--    <string name="medication_alarm" translatable="false">Day 1</string>-->
+    <string name="warm_up_text" translatable="false">Warm Up - 4 exercises</string>
+    <string name="main_exercises_text" translatable="false">Main Exercises - 10 exercises</string>
+    <string name="start_workout" translatable="false">Start Workout</string>
+
+
+    <!--payment-->
+    <string name="pay_and_assign_doctor" translatable="false">Pay and Assign Doctor</string>
+
+
+    <!--sms-->
+    <string name="type_your_message" translatable="false">Type your message</string>
+    <string name="send" translatable="false">Send</string>
+    <string name="clear" translatable="false">Clear</string>
+
+
+    <!--timer-->
+    <string name="rest_timer" translatable="false">Rest Timer</string>
+    <string name="enter_rest_time_hint" translatable="false">Enter Rest Time (seconds)</string>
+    <string name="start_timer" translatable="false">Start Timer</string>
+    <string name="reset_timer" translatable="false">Reset Timer</string>
+    <string name="timer_default" translatable="false">00:00</string>
+
+
+    <string name="select_user_to_assign_exercises" translatable="false">Select a User to Assign Exercises</string>
+
+
+    <!--    add fragment-->
+    <string name="upload_image" translatable="false">Upload Image</string>
+    <string name="exercise_name_hint" translatable="false">Exercise Name</string>
+    <string name="duration_hint" translatable="false">Duration</string>
+    <string name="description_hint" translatable="false">Description</string>
+    <string name="fitness_goal_hint" translatable="false">Fitness Goal</string>
+    <string name="experience_level_hint" translatable="false">Experience Level</string>
+
+
+    <!--    add meal fragment-->
+    <string name="upload_meal_picture" translatable="false">Upload Meal Picture</string>
+    <string name="meal_title_hint" translatable="false">Meal Title</string>
+    <string name="calories_hint" translatable="false">Calories (e.g. kcal)</string>
+    <string name="category_hint" translatable="false">Category</string>
+    <string name="add_meal" translatable="false">Add Meal</string>
+
+
+    <!--    assign exercise-->
+    <string name="select_user" translatable="false">Select User</string>
+    <string name="select_exercises" translatable="false">Select Exercises</string>
+    <string name="assign_exercises" translatable="false">Assign Exercises</string>
+
+
+    <!--    assign meals-->
+    <string name="select_meals" translatable="false">Select Meals</string>
+    <string name="assign_meals" translatable="false">Assign Meals</string>
+
+
+    <!--    change password-->
+    <string name="old_password_hint" translatable="false">old password</string>
+    <string name="new_password_hint" translatable="false">new password</string>
+    <string name="change_password" translatable="false">change password</string>
+
+
+    <!--    choose activity-->
+    <string name="choose_your_workout" translatable="false">Choose Your Workout</string>
+    <string name="home_workout" translatable="false">Home Workout</string>
+    <string name="gym_workout" translatable="false">Gym Workout</string>
+    <string name="macro_nutrient" translatable="false">Macro Nutrient</string>
+    <string name="food_database" translatable="false">Food Database</string>
+    <string name="water_intake" translatable="false">Water Intake</string>
+    <string name="sleep_tracker" translatable="false">Sleep Tracker</string>
+    <string name="progress_visualization" translatable="false">Progress Visualization</string>
+    <string name="generate_workout_plan" translatable="false">Generate Workout Plan</string>
+
+
+    <string name="doctor_list" translatable="false">Doctor List</string>
+
+    <!--overlay-->
+    <string name="motivational_text" translatable="false">Wake Up!</string>
+    <string name="medication_dosage" translatable="false">Medication Name:&#10;          Dosage:</string>
+    <string name="dismiss_button" translatable="false">Dismiss</string>
+
+
+    <!--    bottom navigation-->
+    <!-- Home -->
+    <string name="nav_home_title" translatable="false">Home</string>
+    <string name="nav_home_desc" translatable="false">Navigate to the home screen</string>
+
+    <!-- Settings -->
+    <string name="nav_settings_title" translatable="false">Settings</string>
+    <string name="nav_settings_desc" translatable="false">Open settings to adjust preferences</string>
+
+    <!-- Shop -->
+    <string name="nav_shop_title" translatable="false">Shop</string>
+    <string name="nav_shop_desc" translatable="false">Go to the shop to browse products</string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>አማርኛ</item>
+    </string-array>
+
+
+    <string name="nav_my_profile_title" translatable="false">My Profile</string>
+    <string name="nav_my_profile_desc" translatable="false">Navigate to your profile page</string>
+
+    <!-- Other Apps -->
+    <string name="nav_other_apps_title" translatable="false">Other Apps</string>
+    <string name="nav_other_apps_desc" translatable="false">View other apps from this developer</string>
+
+    <!-- Feedback -->
+    <string name="nav_feedback_title" translatable="false">Feedback</string>
+    <string name="nav_feedback_desc" translatable="false">Give feedback on the app</string>
+
+    <!-- Share -->
+    <string name="nav_share_title" translatable="false">Share</string>
+    <string name="nav_share_desc" translatable="false">Share this app with others</string>
+
+    <!-- Rate Us -->
+    <string name="nav_rate_title" translatable="false">Rate Us</string>
+    <string name="nav_rate_desc" translatable="false">Rate this app on the Play Store</string>
+    <string name="exercise_type">Exercise Type</string>
+    <string name="_0">0</string>
+    <string name="assigned_exercises">Assigned Exercises</string>
+    <string name="exercise_search_hint">Search Exercise</string>
+    <string name="exercise_meal_hint">Search Meal</string>
+    <string name="exercise_user_hint">Search Users</string>
+    <string name="exercise_doctor_hint">Search Doctors</string>
+    <string name="search_doctors">Search Doctors</string>
+    <string name="search_users">Search Users</string>
+    <string name="search_exercises">Search Exercises</string>
+    <string name="search_meals">Search Meals</string>
+    <string name="sound">Sound</string>
+    <string name="screen_reader_support">Screen Reader Support</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="vibration_feedback">Vibration Feedback</string>
+    <string name="profile">Profile</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="Submit">Submit</string>
+    <string name="message">Message</string>
+    <string name="feedbacks_and_suggestions">Feedbacks and Suggestions</string>
+    <string name="todo">TODO</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_pick_dob">Please pick a date of birth</string>
+    <string name="error_upload_image">Please upload a profile image</string>
+    <string name="error_select_gender">Please select a gender</string>
+    <string name="error_enter_username">Please enter a username</string>
+    <string name="error_enter_full_name">Please enter both first and last name</string>
+    <string name="error_building_request">Error building request</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_network_generic">Network error. Please try again.</string>
+    <string name="sending_verification">Sending verification code…</string>
+    <string name="signup_title_user">User Signup Page</string>
+    <string name="signup_title_doctor">Doctor’s Signup Page</string>
+    <string name="send_verification_code">Send Verification code</string>
+    <string name="select_role">Select Role</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="cd_back">Back</string>
+    <string name="doctor_manage_exercises_page">Doctor Manage Exercises page</string>
+    <string name="enter_verification_token">Enter verification token</string>
+    <string name="token_from_email">Token from Email</string>
+    <string name="new_password">New Password</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="choose_trainer">Choose Trainer</string>
+    <string name="nutrition_plan">Nutrition plan</string>
+    <string name="all_feedbacks">All Feedbacks</string>
+    <string name="nav_progress_desc">Progress</string>
+    <string name="nav_progress_title">Progress</string>
+    <string name="Termsandconditions">Terms and Conditions</string>
+    <string name="dietmedical">Store Diet medical Records</string>
+    <string name="detect">Detect objects and texts</string>
+
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="activity_levels">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Super Active</item>
+    </string-array>
+    <string-array name="training_goals">
+        <item>Strength</item>
+        <item>Hypertrophy</item>
+        <item>Endurance</item>
+    </string-array>
+    <string-array name="experience_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="intensity_levels">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="formula_names">
+        <item>Epley Formula</item>
+        <item>Brzycki Formula</item>
+        <item>Lombardi Formula</item>
+        <item>O Conner Formula</item>
+    </string-array>
+    <string-array name="goal_types">
+        <item>Weight Loss</item>
+        <item>Muscle Gain</item>
+        <item>Endurance Improvement</item>
+        <item>General Fitness</item>
+    </string-array>
+    <string-array name="fitness_goals">
+        <item>Weight Loss</item>
+        <item>Muscle Gain</item>
+        <item>Endurance Improvement</item>
+        <item>General Fitness</item>
+    </string-array>
+    <string-array name="dietary_preferences">
+        <item>Keto</item>
+        <item>Low-Carb</item>
+        <item>High-Protein</item>
+        <item>Balanced</item>
+    </string-array>
+    <string-array name="dietary">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>PreWorkout</item>
+        <item>PostWorkout</item>
+    </string-array>
+    <string-array name="exercise_locations">
+        <item>home</item>
+        <item>gym</item>
+    </string-array>
+
+</resources>

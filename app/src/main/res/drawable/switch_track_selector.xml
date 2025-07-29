@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Day mode track color -->
+    <item android:drawable="@drawable/ic_day_background" android:state_checked="false" />
+    <!-- Night mode track color -->
+    <item android:drawable="@drawable/ic_night_background" android:state_checked="true" />
+</selector>
