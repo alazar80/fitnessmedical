@@ -1,6 +1,6 @@
 # FitnessMedical (Android)
 
-> Fitness & medical companion app that combines **workout plans**, **trainer subscriptions (Chapa payments)**, and a **medication/capsule alarm** in one place. :contentReference[oaicite:0]{index=0}
+> Fitness & medical companion app that combines **workout plans**, **trainer subscriptions (Chapa payments)**, and a **medication/capsule alarm** in one place. 
 
 ---
 
