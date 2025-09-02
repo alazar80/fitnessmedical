@@ -30,7 +30,8 @@
 - **Language mix**: Java app code with Kotlin Gradle scripts (from repo tree). :contentReference[oaicite:1]{index=1}
 
 ---
-
+![Braydon's GitHub Banner](./fitnessmedical.png)
+---
 ## 🚀 Quick Start
 
 1. **Clone**
